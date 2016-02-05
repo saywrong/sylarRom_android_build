@@ -31,6 +31,7 @@ PRODUCT_PACKAGES += \
     PacProcessor \
     ProxyHandler \
     SharedStorageBackup \
-    VpnDialogs
+    VpnDialogs \
+    libspy 
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_base.mk)
